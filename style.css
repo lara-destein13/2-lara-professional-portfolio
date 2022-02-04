@@ -50,14 +50,29 @@ header nav ul li a {
 }
 
 /* style the footer */
+#contact-header {
+    color: var(--secondary-color);
+    padding: 10px 0px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
 footer {
     margin-top: auto;
     padding: 10px 15px;
-    display: flex;
-    flex-wrap: wrap;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     justify-content: space-between;
+}
+
+address {
+    line-height: 2;
+    font-size: 20px;
+}
+
+address a {
+    color: var(--secondary-color);
 }
 
 /* style the about me section */
@@ -83,6 +98,7 @@ footer {
     margin: 10px;;
     line-height: 2;
 }
+
 
 
 /* style the projects section */
@@ -111,7 +127,12 @@ footer {
     margin: 10px;
 }
 
-
-
+.h2-header {
+    color: var(--primary-color);
+    padding: 10px 15px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
 
 
