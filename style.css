@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+}
+
+.nav {
+    flex-direction: column;
+}
+
+.about-me {
+   display: flex; 
+}
+
+.photo {
+    flex-direction: column;
+}
+
+.paragraph {
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+}
+
+.project {
+    flex-direction: column;
+}
+
