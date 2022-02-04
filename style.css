@@ -81,13 +81,17 @@ address a {
    flex-wrap: wrap;
 }
 
+img {
+    width: 342px;
+    height: 458px;
+}
+
 .photo {
     flex-direction: column;
     border: solid black 2px;
     height: 500px;
     width: 500px;
     margin: 10px;;
-
 }
 
 .paragraph {
