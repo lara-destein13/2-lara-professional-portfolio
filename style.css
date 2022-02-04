@@ -49,23 +49,42 @@ header nav ul li a {
     font-size: 20px;
 }
 
-
-
-
+/* style the footer */
+footer {
+    margin-top: auto;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    justify-content: space-between;
+}
 
 /* style the about me section */
 .about-me {
    display: flex; 
+   flex-wrap: wrap;
 }
 
 .photo {
     flex-direction: column;
+    border: solid black 2px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;;
+
 }
 
 .paragraph {
     flex-direction: column;
+    border: solid black 2px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;;
 }
 
+
+/* style the projects section */
 .projects {
     display: flex;
     flex-wrap: wrap;
