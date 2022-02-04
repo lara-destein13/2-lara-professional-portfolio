@@ -1,11 +1,59 @@
-.header {
+:root {
+    --primary-color: #999B84;
+    --secondary-color: #F4EEED;
+    --tertiary-color: #EFD9D1;
+    --other-color: #DDB7AB; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
     display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    justify-content: space-between;
 }
 
-.nav {
-    flex-direction: column;
+header h1 {
+    padding: 10px 15px;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* style the about me section */
 .about-me {
    display: flex; 
 }
@@ -26,7 +74,24 @@
 .project {
     flex-direction: column;
     border: solid black 2px;
-    padding: 80px;
+    height: 300px;
+    width: 300px;
     margin: 10px;;
 }
+
+.project-0-flex {
+    display: flex;
+}
+
+.project-0 {
+    flex-direction: column;
+    border: solid black 2px;
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+}
+
+
+
+
 
