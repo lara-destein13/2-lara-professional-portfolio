@@ -20,9 +20,13 @@
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project {
     flex-direction: column;
+    border: solid black 2px;
+    padding: 80px;
+    margin: 10px;;
 }
 
