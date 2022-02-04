@@ -88,7 +88,7 @@ img {
 
 .photo {
     flex-direction: column;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     height: 500px;
     width: 500px;
     margin: 10px;;
@@ -96,14 +96,17 @@ img {
 
 .paragraph {
     flex-direction: column;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     height: 500px;
     width: 500px;
     margin: 10px;;
     line-height: 2;
 }
 
-
+hr {
+    margin: 10px;
+    border: 0.5px solid var(--primary-color);
+}
 
 /* style the projects section */
 .projects {
