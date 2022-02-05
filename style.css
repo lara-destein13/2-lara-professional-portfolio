@@ -11,13 +11,11 @@
     padding: 0;
 }
 
-
-
 header {
     display: flex;
     flex-wrap: wrap;
     background-color: #999b84;
-background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
+    background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
     justify-content: space-between;
 }
 
@@ -94,7 +92,7 @@ img {
     /* border: solid black 2px; */
     height: 500px;
     width: 500px;
-    margin: 10px;;
+    margin: 10px;
 }
 
 .paragraph {
@@ -102,7 +100,7 @@ img {
     /* border: solid black 2px; */
     height: 500px;
     width: 500px;
-    margin: 10px;;
+    margin: 10px;
     line-height: 2;
 }
 
@@ -120,8 +118,8 @@ hr {
 .project {
     flex-direction: column;
     border: solid black 2px;
-    height: 300px;
-    width: 300px;
+    height: 450px;
+    width: 450px;
     margin: 10px;;
 }
 
@@ -144,5 +142,9 @@ hr {
     font-family: cursive;
     font-weight: bold;
 }
+ 
+/* style projects section */
+
+
 
 
