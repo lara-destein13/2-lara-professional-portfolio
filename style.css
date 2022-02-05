@@ -11,11 +11,13 @@
     padding: 0;
 }
 
+
+
 header {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: #999b84;
+background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
     justify-content: space-between;
 }
 
@@ -61,8 +63,9 @@ header nav ul li a {
 footer {
     margin-top: auto;
     padding: 10px 15px;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
+    background-color: #999b84;
+    background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
     justify-content: space-between;
 }
 
