@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #999B84;
+    --primary-color: #8D9B84;
     --secondary-color: #F4EEED;
     --tertiary-color: #EFD9D1;
     --other-color: #DDB7AB; 
@@ -14,7 +14,7 @@
 header {
     display: flex;
     flex-wrap: wrap;
-    background-color: #999b84;
+    background-color: #8D9B84;
     background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
     justify-content: space-between;
 }
@@ -62,7 +62,7 @@ footer {
     margin-top: auto;
     padding: 10px 15px;
     color: white;
-    background-color: #999b84;
+    background-color: #8D9B84;
     background-image: url("https://www.transparenttextures.com/patterns/little-triangles.png");
     justify-content: space-between;
 }
@@ -89,7 +89,6 @@ img {
 
 .photo {
     flex-direction: column;
-    /* border: solid black 2px; */
     height: 500px;
     width: 400px;
     margin: 10px;
@@ -97,7 +96,6 @@ img {
 
 .paragraph {
     flex-direction: column;
-    /* border: solid black 2px; */
     height: 500px;
     width: 500px;
     margin: 10px;
@@ -126,6 +124,10 @@ hr {
     padding-top: 225px;
 }
 
+.project:hover {
+    border: solid var(--primary-color) 4px;
+}
+
 .project-0-flex {
     display: flex;
 }
@@ -141,17 +143,24 @@ hr {
     padding-top: 115px;
 }
 
+.project-0:hover {
+    border: solid var(--primary-color) 4px;
+}
+
 .project-title {
     color: var(--primary-color);
+    font-size: 25px;
 }
 
 .project-description {
     color: var(--primary-color);
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
 }
+/* style projects section */
 
 .h2-header {
     color: var(--primary-color);
@@ -161,7 +170,7 @@ a {
     font-weight: bold;
 }
  
-/* style projects section */
+
 
 
 
