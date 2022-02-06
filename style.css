@@ -91,7 +91,7 @@ img {
     flex-direction: column;
     /* border: solid black 2px; */
     height: 500px;
-    width: 500px;
+    width: 400px;
     margin: 10px;
 }
 
@@ -117,10 +117,13 @@ hr {
 
 .project {
     flex-direction: column;
-    border: solid black 2px;
+    border: solid var(--primary-color) 2px;
     height: 450px;
     width: 450px;
-    margin: 10px;;
+    margin: 10px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding-top: 225px;
 }
 
 .project-0-flex {
@@ -129,10 +132,25 @@ hr {
 
 .project-0 {
     flex-direction: column;
-    border: solid black 2px;
+    border: solid var(--primary-color) 2px;
     height: 300px;
-    width: 100%;
+    min-width: 930px;
     margin: 10px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding-top: 115px;
+}
+
+.project-title {
+    color: var(--primary-color);
+}
+
+.project-description {
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
 }
 
 .h2-header {
