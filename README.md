@@ -33,5 +33,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Application runs in the browswer and can be accessed at: 
 https://lara-destein13.github.io/2-lara-professional-portfolio/
 
+![Screen Shot 2022-02-28 at 6 41 06 PM](https://user-images.githubusercontent.com/88476888/156077380-e57a322e-a1e9-4516-9c4a-f1ae57665b1d.png)
+
 ## Contributing
 Made with &hearts; by Lara DeStein
