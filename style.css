@@ -122,31 +122,20 @@ hr {
 
 .project-0-flex {
     display: flex;
-    border: solid 2px red;
+
 }
 
 #first-project {
     height: 300px;
     min-width: 930px; 
     margin: 10px;
-    border: solid 2px blue;
     opacity: 1.0;
-    /* position: relative; */
-}
-
-.on-top-first {
-    top: 0px;
-    left: 0px;
-    background-color: var(--primary-color);
-    padding-top: 10px;  
-    /* position: absolute; */
+    border: solid var(--primary-color) 2px;
 }
 
 #first-project:hover {
    opacity: 0.5;
 }
-
-/* work on project hover */
 
 .project-title {
     color: var(--secondary-color);
