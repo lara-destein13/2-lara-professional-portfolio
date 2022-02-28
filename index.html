@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Lara Portfolio</title>
 </head>
 
@@ -14,7 +15,7 @@
         <nav>
             <ul>
                 <li>
-                  <a href="#about-me">About Me</a>  
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
                     <a href="#projects-section">Projects</a>
@@ -32,18 +33,24 @@
 
     <hr>
 
-    <div class="about-me" class="flex-row">       
-        <div class="photo"><img id="profile-pic" src="./Lara-Portfolio.jpeg" alt="Picture of Lara DeStein" /></div>
+    <div class="about-me" class="flex-row">
+        <div class="photo"><img id="profile-pic" src="images/lara.jpeg" alt="Picture of Lara DeStein" /></div>
         <div class="paragraph">
-            My name is Lara DeStein and I am a student at Vanderbilt Universty's Coding Bootcamp, seeking a career in full-stack web development.
-            I graduated from the Universtiy of California Davis with a BA in Psychology in 2017. I began working for East Bay Innovations, a
-            non-profit organization whose mission is to empower individuals with disabilities to live in their own homes, work in jobs of their 
+            My name is Lara DeStein and I am a student at Vanderbilt Universty's Coding Bootcamp, seeking a career in
+            full-stack web development.
+            I graduated from the Universtiy of California Davis with a BA in Psychology in 2017. I began working for
+            East Bay Innovations, a
+            non-profit organization whose mission is to empower individuals with disabilities to live in their own
+            homes, work in jobs of their
             choosing, and be a part of their community.
-            After working at EBI as a Direct Support Professional, Executive Administrative Assistant, 
-            and Billing Manager, I reflected upon what skills I could develop to continue growing professionally. As a billing manager, I realized some 
-            needs that could be met if we incorporated new databases. We could serve more clients and simplify processes. I hope to use the skills I 
-            acquire through Vanderbilt University's Coding Bootcamp to build websites, databases, and applications for agencies whose mission is 
-            helping others.   
+            After working at EBI as a Direct Support Professional, Executive Administrative Assistant,
+            and Billing Manager, I reflected upon what skills I could develop to continue growing professionally. As a
+            billing manager, I realized some
+            needs that could be met if we incorporated new databases. We could serve more clients and simplify
+            processes. I hope to use the skills I
+            acquire through Vanderbilt University's Coding Bootcamp to build websites, databases, and applications for
+            agencies whose mission is
+            helping others.
         </div>
     </div>
 
@@ -54,8 +61,8 @@
     </div>
     <div class="project-0-flex">
         <a href="https://lara-destein13.github.io/my-backyard-trails/">
-            <div class="project-0">       
-                <img id="first-project" src="./images/backyard-trails.png">         
+            <div class="project-0">
+                <img id="first-project" src="./images/backyard-trails.png">
             </div>
             <div class="on-top-first">
                 <h2 class="project-title">My Backyard Trails</h2>
@@ -70,7 +77,7 @@
                 <div class="on-top">
                     <h2 class="project-title">Password Generator</h2>
                     <p class="project-description">(Javascript)</p>
-                </div>   
+                </div>
             </div>
         </a>
         <a href="https://lara-destein13.github.io/4-code-quiz/">
@@ -79,7 +86,7 @@
                 <div class="on-top">
                     <h2 class="project-title">Code Quiz</h2>
                     <p class="project-description">(Web APIs)</p>
-                </div>    
+                </div>
             </div>
         </a>
         <a href="https://lara-destein13.github.io/5-work-day-scheduler/">
@@ -106,17 +113,36 @@
         <div>
             <h2 id="contact-header">Contact Info</h2>
             <address>
-                Lara DeStein <br/>
-                192 Tanasi Lagoon Dr <br/>
-                Loudon, TN, 37774 <br/>
-                P: (925) 819-1194<br/>
-                E: <a href="mailto:laradestein13@gmail.com">laradestein13@gmail.com</a> <br/>
-                github: <a href="https://github.com/lara-destein13/">github profile</a> <br/>
-                linkedin: <a href="https://www.linkedin.com/in/lara-destein-6353bb149/">linkedin profile</a> <br/>
+                Lara DeStein <br />
+                192 Tanasi Lagoon Dr <br />
+                Loudon, TN, 37774 <br />
+                P: (925) 819-1194<br />
+                E: <a href="mailto:laradestein13@gmail.com">laradestein13@gmail.com</a> <br />
+                github: <a href="https://github.com/lara-destein13/">github profile</a> <br />
+                linkedin: <a href="https://www.linkedin.com/in/lara-destein-6353bb149/">linkedin profile</a> <br />
             </address>
         </div>
     </footer>
 
+    <script src="js/darkmode.js"></script>
+    <script>
+        const options = {
+            bottom: '64px',
+            right: '32px',
+            left: 'unset',
+            time: '0.5s',
+            mixColor: '#fff',
+            backgroundColor: '#fff',
+            buttonColorDark: '#100f2c',
+            buttonColorLight: '#fff',
+            saveInCookies: false,
+            label: '🌓',
+            autoMatchOsTheme: true
+        }
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
 
 </body>
+
 </html>
