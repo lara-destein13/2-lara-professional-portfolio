@@ -117,29 +117,46 @@ hr {
     flex-direction: column;
     margin: 10px;
     text-align: center;
+    position: relative;
 }
 
 .project-0-flex {
     display: flex;
-    position: relative;
+    border: solid 2px red;
 }
 
 #first-project {
     height: 300px;
     min-width: 930px; 
     margin: 10px;
-    border: solid var(--primary-color) 2px;
+    border: solid 2px blue;
     opacity: 1.0;
+    /* position: relative; */
+}
+
+.on-top-first {
+    top: 0px;
+    left: 0px;
+    background-color: var(--primary-color);
+    padding-top: 10px;  
+    /* position: absolute; */
 }
 
 #first-project:hover {
    opacity: 0.5;
 }
 
+/* work on project hover */
+
 .project-title {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 25px;
 }
+
+.project-description {
+    color: var(--secondary-color);
+    font-size: 20px;
+}    
 
 .project-img {
     height: 450px;
@@ -148,13 +165,18 @@ hr {
     opacity: 1.0;
 }
 
-.project-img:hover {
-    opacity: 0.5;
+.on-top {
+    top: 375px;
+    left: 0px;
+    width: 450px;
+    height: 75px;
+    background-color: var(--primary-color);
+    position: absolute;
+    padding-top: 10px;
 }
 
-.project-description {
-    color: var(--primary-color);
-    font-size: 20px;
+.project-img:hover {
+    opacity: 0.5;
 }
 
 a {
