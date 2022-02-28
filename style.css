@@ -121,20 +121,19 @@ hr {
 
 .project-0-flex {
     display: flex;
+    position: relative;
 }
 
-.project-0 {
-    flex-direction: column;
-    border: solid var(--primary-color) 2px;
+#first-project {
     height: 300px;
-    min-width: 930px;
+    min-width: 930px; 
     margin: 10px;
-    background-color: var(--secondary-color);
-    text-align: center;
+    border: solid var(--primary-color) 2px;
+    opacity: 1.0;
 }
 
-.project-0:hover {
-    border: solid var(--primary-color) 4px;
+#first-project:hover {
+   opacity: 0.5;
 }
 
 .project-title {
@@ -145,11 +144,12 @@ hr {
 .project-img {
     height: 450px;
     width: 450px;
-    border: solid var(--primary-color) 2px;;
+    border: solid var(--primary-color) 2px;
+    opacity: 1.0;
 }
 
 .project-img:hover {
-    border: solid var(--primary-color) 3px;
+    opacity: 0.5;
 }
 
 .project-description {
@@ -170,7 +170,9 @@ a {
     font-weight: bold;
 }
  
-
+address a:hover {
+    color:#DDB7AB;
+}
 
 
 
